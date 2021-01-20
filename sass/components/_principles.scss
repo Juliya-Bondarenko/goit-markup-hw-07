@@ -1,0 +1,75 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-principles {
+  padding-top: 94px;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: $secondary-text-color;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.section-title.doing {
+  margin-bottom: 50px;
+}
+
+.feature {
+  display: flex;
+}
+
+.description {
+  width: 270px;
+}
+
+.feature .description:not(:last-child),
+.works .pictures:not(:last-child),
+.team-card .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon {
+  fill: currentColor;
+}
+
+.icon-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.feature .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: $secondary-text-color;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature .text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}

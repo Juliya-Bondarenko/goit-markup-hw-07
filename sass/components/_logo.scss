@@ -1,0 +1,20 @@
+.logo {
+  display: block;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-web {
+  color: $accent-color;
+  text-decoration: none;
+}
+
+.logo-studio {
+  color: black;
+}
+
+.copyright .logo-studio {
+  color: $basic-bg-color;
+}
